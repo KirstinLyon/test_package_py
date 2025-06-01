@@ -1,0 +1,12 @@
+[project]
+name = "test_package_py"
+version = "0.1.0"
+authors = [{name = "Kirstin Lyon"}]
+description = "Simple test for setting up a python project"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
